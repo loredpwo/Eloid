@@ -1,1 +1,24 @@
+# Core dependencies
+requests
+esprima
+javalang
+
+# For C/C++ parsing using Clang
+libclang
+
+# Optional but recommended (if using clang.cindex on some systems)
+clang
+
+# For type annotations and dataclasses (Python 3.7+ includes dataclasses by default)
+typing_extensions  # For older Python versions if needed
+
+# If using Python < 3.9, you might also need:
+# astunparse (for ast.unparse if you're not using Python 3.9+)
+# astunparse
+
+# These two are placeholders for your custom/hypothetical parsers:
+# You’ll need to create or install bindings for Go and Rust parsing.
+# These are NOT installable via pip, but here's how you can label them:
+go_parser @ file:///path/to/go_parser  # hypothetical parser
+syn @ file:///path/to/syn              # hypothetical parser
 
